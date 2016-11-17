@@ -293,7 +293,7 @@ int main()
 			{
 				printf("Failed to set total recording duration\n");
 			}
-			nRetVal = AVRM_SelectFileLocation("../../vru_25jul15");
+			nRetVal = AVRM_SelectFileLocation("/media/sda1");
 			if(nRetVal == AVRM_FAILURE)
 			{
 				printf("Failed to set required file path\n");
