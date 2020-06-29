@@ -21,3 +21,5 @@ clean:
 	rm -rf testApp/bin
 	#$(CROSS_COMPILE)gcc -g $(CFLAGS) -c -fPIC src/avrm.c  -L$(LIBSPATH) $(LIBS)
 	#$(CROSS_COMPILE)gcc -g -shared -o lib/libavrm.so avrm.o 
+	
+	#prabhas
